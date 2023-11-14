@@ -1,0 +1,67 @@
+/* Center the content horizontally and vertically */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+p {
+    font-size: 55px;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-family: fantasy;
+}
+
+/* Style the h1 element */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Style the image */
+img {
+    max-width: 555px; /* Ensure the image fits within the container */
+    height: auto;    /* Maintain the aspect ratio */
+}
+
+/* Style the ul element */
+ul {
+    list-style: none; /* Remove the default bullet points */
+    padding: 0;
+}
+
+/* Style the li elements */
+li {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Style the anchor tags */
+a {
+    text-decoration: none; /* Remove the default underline */
+    font-family: monospace;
+    color: yellow;        /* Set the link color to blue (you can change this) */
+}
+
+.r1 {
+    color:red;
+}
+
+.r2 {
+    color:blue;
+}
+
+.r3 {
+    color:green;
+}
+
+.r4 {
+    color:yellow;
+}
